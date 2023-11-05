@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "Menu.h"
 
 #include "MultiplayerSessionsSubsystem.h"
@@ -69,7 +66,7 @@ bool UMenu::Initialize()
 }
 
 /*
- * Will be called when menu gonna be destroyed, after we travel to another level
+ * Will be called after we travel to another level
  */
 void UMenu::NativeDestruct()
 {
